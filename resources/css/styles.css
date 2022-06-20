@@ -71,8 +71,8 @@ p {
     width: max-content;
 }
 
-p::before,
-p::after {
+.typewriter::before,
+.typewriter::after {
     content: '';
     position: absolute;
     top: 0;
@@ -81,12 +81,12 @@ p::after {
     left: 0;
 }
 
-p::before {
+.typewriter::before {
     background: #0d0208;
     animation: typewriter 4s steps(24) 1s forwards;
 }
 
-p::after {
+.typewriter::after {
     width: 0.125em;
     background: #00ff41;
     animation: typewriter 4s steps(24) 1s forwards, blink 750ms steps(24) infinite;
