@@ -18,11 +18,10 @@ body {
 }
 
 .message-box {
-    width: 100%;
+    width: 60%;
     height: 100vh;
-    display: inline-block;
+    margin: 0 auto;
     padding-top: 60px;
-    text-indent: 120px;
 }
 
 h3 {
