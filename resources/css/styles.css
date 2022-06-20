@@ -30,6 +30,10 @@ h3 {
     font-weight: 1.4;
 }
 
+h3, p {
+    display: inline-block;
+}
+
 .center {
     display: flex;
     justify-content: center;
