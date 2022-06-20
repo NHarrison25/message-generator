@@ -7,5 +7,10 @@ A **collaborative project** built to share the wisdom of the Sopranos. Generate 
 * **JS** - for message generation
 
 ## Contributors
-* [NHarrison25]: https://github.com/NHarrison25 [NHarrison25]
-* [MacauleyGB]: https://github.com/MacauleyGB [MacauleyGB]
+[NHarrison25]: https://github.com/NHarrison25
+
+* [NHarrison25]
+
+[MacauleyGB]: https://github.com/MacauleyGB
+
+* [MacauleyGB]
