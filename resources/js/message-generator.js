@@ -11,9 +11,10 @@ function pickRandom(array) {
 //Change empty element to contain concatenated string
 function displayMessage(event) {
   let str1 = pickRandom(part1);
+  document.getElementsByClassName('invisible')[0].style.display = 'none';
   
   if (str1 === part1[9]) {
-    //display image
+    document.getElementsByClassName('invisible')[0].style.display = 'flex';
     document.getElementsByTagName('p')[0].innerHTML = `${str1}`;
   } else {
     let str2 = pickRandom(part2);
@@ -23,4 +24,4 @@ function displayMessage(event) {
 }
 
 //Add event handler to button
-getElementsByClass('btn')[0].addEventListener('click', displayMessage);
+document.getElementsByClassName('btn')[0].addEventListener('click', displayMessage);
